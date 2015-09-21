@@ -4,11 +4,15 @@ ul {
 }
 
 li {
-  background: #ccc;
+  background: #f9c0ac;
   width: 80px;
   height: 80px;
   padding: 4px;
   margin: 10px;
+}
+
+a {
+  text-decoration: none;
 }
 
 #container {
