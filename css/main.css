@@ -1,11 +1,36 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #ccc;
+  width: 80px;
+  height: 80px;
+  padding: 4px;
+  margin: 10px;
+}
+
+#container {
+  text-align: center;
+}
+
+#menu {
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
 h1#default {
   font-family: 'Nunito', sans-serif;
   font-weight: 600;
   font-style: normal;
   font-size: 100px;
-  
   color: #e0494e;
+  margin: 170px auto 20px;
+}
 
-  text-align: center;
-  margin: 0px 0px -50px 0px;
+#menu ul>li {
+  display: inline-block;
+  border-radius: 50%;
+  text-shadow: 0 1px 0 #fff;
 }
